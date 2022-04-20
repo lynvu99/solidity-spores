@@ -1,0 +1,112 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "myName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "myDOB",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "myMessage",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "retDOB",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "retName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "newMessage",
+						"type": "string"
+					}
+				],
+				"name": "setMessage",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Thang.sol": "CandidateInformation"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Thang.sol": {
+			"keccak256": "0x178677ccfc236006bea0722c4de6fc3d676c0acd60edbf5d6151a015e576e0c2",
+			"urls": [
+				"bzz-raw://51a46fd69a6f27158cc33f27e6ff3f5a507d15562f96e2f54f76189a5ad16f4c",
+				"dweb:/ipfs/Qmed9Vk2XbteVLmMPpWsRbYfH7MCDJsQuBPCHvG2pd1XEJ"
+			]
+		},
+		"hardhat/console.sol": {
+			"keccak256": "0x72b6a1d297cd3b033d7c2e4a7e7864934bb767db6453623f1c3082c6534547f4",
+			"urls": [
+				"bzz-raw://a8cb8681076e765c214e0d51cac989325f6b98e315eaae06ee0cbd5a9f084763",
+				"dweb:/ipfs/QmNWGHi4zmjxQTYN3NMGnJd49jBT5dE4bxTdWEaDuJrC6N"
+			]
+		}
+	},
+	"version": 1
+}
